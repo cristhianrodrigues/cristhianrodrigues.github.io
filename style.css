@@ -1,0 +1,124 @@
+*, :after, :before {
+    box-sizing: border-box;
+    margin: 0;
+    font-weight: 400;
+    font-size: .95rem;
+}
+
+
+html {
+    background-color: var(--color-background);
+    --color-background: #0f150f;
+    font-family: "Fira Code","Courier New",monospace;
+    
+}
+
+#conteudo {
+    margin-top: 5%;
+    margin: 5%;
+}
+
+#boasVindas {
+    text-align: center;
+}
+
+#foto {
+    border-radius: 10%;
+    align-items: center;
+
+}
+
+#primeiroP {
+    margin-top: 3%;
+    color: #58e953;
+    font-size: 20px;
+}
+
+#tituloSobre {
+    margin-top: 5%;
+    color: #00b4e6;
+    text-decoration: underline;
+    font-size: 25px;
+}
+
+#paragrafoSobre {
+    color: #fff;
+    padding-right: 40%;
+    margin-top: 2%;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+#tituloDosProjetos {
+    margin-top: 10%;
+    color: #ffd11a;
+    text-decoration: underline;
+    font-size: 25px;
+}
+
+#sobreOsPojetos {
+    color: #fff;
+    padding-right: 40%;
+    margin-top: 2%;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+#formulario{
+    color: #fff;
+    padding-right: 40%;
+    margin-top: 5%;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+#carrossel {
+    color: #fff;
+    padding-right: 40%;
+    margin-top: 1%;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+#linkDosProjetos {
+    font-size: 22px;
+    margin-left: 25px;
+}
+
+#tituloDoRedes {
+    margin-top: 10%;
+    color: #ad3030;
+    text-decoration: underline;
+    font-size: 25px;
+}
+
+#linkedIn {
+    color: #fff;
+    padding-right: 40%;
+    margin-top: 1%;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+#gitHub {
+    color: #fff;
+    padding-right: 40%;
+    margin-top: 1%;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+#email {
+    color: #fff;
+    padding-right: 40%;
+    margin-top: 1%;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+#linkDasRedes {
+    font-size: 22px;
+    margin-left: 25px;
+    color: #58e953;
+    text-decoration: underline;
+}
