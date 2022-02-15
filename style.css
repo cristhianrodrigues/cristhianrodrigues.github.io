@@ -80,6 +80,14 @@ html {
     line-height: 25px;
 }
 
+#landing-page {
+    color: #fff;
+    padding-right: 40%;
+    margin-top: 1%;
+    font-size: 20px;
+    line-height: 25px;
+}
+
 #linkDosProjetos {
     font-size: 22px;
     margin-left: 25px;
