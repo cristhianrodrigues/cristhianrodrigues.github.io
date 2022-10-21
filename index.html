@@ -1,53 +1,146 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
-    <title>Site Pessoal</title>
+    <title>Cristhian Rodrigues site portfólio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;700&family=EB+Garamond:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div id="conteudo">
-        <div id="boasVindas"> 
-            <img src="./img/unnamed.jpg" alt="" id="foto">
-            <p id="primeiroP">Olá, seja muito bem-vindo ou bem-vinda ao meu site portfólio!</p>
+    <header>
+        <div class="lado-esquerdo">
+            <h4>Cristhian Rodrigues</h4>
+            <div class="barra-de-navegacao">
+                <a href="#ancora-sobre-mim">Sobre mim</a>
+                <a href="#ancora-projetos">Projetos</a>
+                <a href="#ancora-redes">Redes</a>
+            </div>
         </div>
-        <div id="sobre">
-            <h1 id="tituloSobre">Sobre mim</h1>
-            <p id="paragrafoSobre">Sou um jovem estudante de programação que quer se tornar um desenvolvedor web, em busca de experiência e oportunidades na área de Front-End, interessado em aprender HTML, CSS e JavaScript.</p>
+        <div class="lado-direito">
+            <div class="redes-atalho">
+                <a class="linkedin" href="https://www.linkedin.com/in/cristhian-rodrigues-3229aa224/"><img class="icone-redes" src="./imgs/Linkedin.png"></img></a>
+                <a class="github" href="https://github.com/cristhianrodrigues"><img class="icone-redes" src="./imgs/Github.png"></img></a>
+                <a class="email" href="mailto:cristhian.lucas@protonmail.com?"><img class="icone-redes" src="./imgs/o-email.png"></img></a>
+            </div>
+            <div class="modo-escuro">
+                <label class="modoEscuroTitulo">Modo escuro:</label>
+                <img id="botaoDesligado" src="./imgs/Desligado.png" alt="Botão desligado">
+            </div>
         </div>
-        <div id="projetos">
-            <h1 id="tituloDosProjetos">Projetos</h1>
-            <p id="sobreOsPojetos">Tenho alguns projetos feitos, gosto muito de fazê-los além de adquirir experiência consigo mostrar um pouco do meu potencial com eles.</p>
-
-            <p id="formulario">-  Formulário</p>
-            <a id="linkDosProjetos" href="https://cristhianrodrigues.github.io/formulario">https://cristhianrodrigues.github.io/formulario</a>
-            
-            <p id="carrossel">-  Carrossel</p>
-            <a id="linkDosProjetos" href="https://cristhianrodrigues.github.io/carrossel">https://cristhianrodrigues.github.io/carrossel</a>
-
-            <p id="landing-page">-  Landing page</p>
-            <a id="linkDosProjetos" href="https://cristhianrodrigues.github.io/landing-page">https://cristhianrodrigues.github.io/landing-page</a>
-
-
-        </div>
-
-        <div id="redes">
-            <h1 id="tituloDoRedes">Redes</h1>
-
-            <p id="linkedIn">-  LinkedIn</p>
-            <a id="linkDasRedes" href="https://www.linkedin.com/in/cristhian-rodrigues-3229aa224/">https://www.linkedin.com/in/cristhian-rodrigues-3229aa224/</a>
-
-            <p id="gitHub">-  GitHub</p>
-            <a id="linkDasRedes" href="https://github.com/cristhianrodrigues">https://github.com/cristhianrodrigues</a>
-        
-            <p id="email">-  E-mail</p>
-            <a id="linkDasRedes">cristhian.lucas@protonmail.com</a>
-
-        </div>
-
-    </div>
-    
+    </header>
+    <main>
+        <section class="introducao">
+            <img class="fotoDoAutor" src="./imgs/FotoM.png" alt="Foto do autor">
+            <h1 class="apresentacao">Olá, seja muito bem-vindo ou bem-vinda ao meu site portfólio!</h1>
+            <hr id="ancora-sobre-mim" class="divisao-inicio" align="left"></hr>
+            <div class="sobre-mim">
+                <p>Sou um jovem estudante de programação que quer se tornar um <strong>desenvolvedor web</strong>, em busca de experiência e oportunidades na área de <strong>Front-End</strong>, interessado em aprender <strong>HTML</strong>, <strong>CSS</strong> e <strong>JavaScript</strong>.</p>
+                <p>Tenho alguns <strong>projetos feitos</strong>, gosto muito de fazê-los além de adquirir <strong>experiência</strong> consigo mostrar um pouco do meu <strong>potencial</strong> com eles.</p>
+            </div>
+        </section>
+        <section class="projetos" id="ancora-projetos">
+            <hr class="divisao-fim" align="left"></hr>
+            <h2 class="titulo">Projetos</h2>
+            <p>Aqui eu compartilho os meus projetos que eu fiz por conta própria ou que eu ajudei a fazer, a maioria dos projetos foram desafios tirados do site chamado <a class="front-end-mentor-link" href="https://www.frontendmentor.io/">front-end mentor</a>.</p>
+            <div class="projeto-destaque">
+                <img class="img-projeto" src="./imgs/ingridmachado-net.jpg" alt="Página inicial do site ingridmachado.net">
+                <div class="conteudo-projeto">
+                    <h2 class="titulo sub-titulo">ingridmachado.net</h2>
+                    <p>O maior projeto até então que eu participei, fui responsável em transformar o design inicial em código HTML, CSS, JavaScript, foram mais de 6 páginas criadas incluindo um design para dispositivos mobile.</p>
+                    <a class="site-link" href="https://ingridmachado.net/">Visitar Site</a>
+                </div>
+            </div>
+            <div class="projeto-destaque projeto-landing-page">
+                <img class="img-projeto" src="./imgs/landing-page.jpg" alt="Foto do desafio do front-end mentor">
+                <div class="conteudo-projeto">
+                    <h2 class="titulo sub-titulo">Landing page</h2>
+                    <p>Uma landing page simples mas bem estilizada, aprendi bastante com esse desafio, esse projeto foi feito totalmente por mim com HTML, CSS, JavaScript.</p>
+                    <a class="site-link" href="https://cristhianrodrigues.github.io/landing-page/">Visitar Projeto</a>
+                </div>
+            </div>
+        </section>
+        <section class="outros-projetos">
+            <h2 class="titulo">Outros projetos</h2>
+            <p>Outros projetos que eu também desenvolvi, gosto muito de fazer eles pois ganho muita experiencia quando faço, sempre tentando fazer eles de uma forma que me ajude a evoluir as minhas habilidade como programador.</p>
+            <div class="conteudo-outros-projetos">
+                <div class="projeto-secundario">
+                    <img class="img-projeto-secundario" src="./imgs/carrossel.png" alt="Carrossel png">
+                    <div class="sobre-o-projeto">
+                        <h2 class="titulo sub-titulo titulo-outros-projetos">Carrossel</h2>
+                        <p>Este é um projeto de carrossel que eu montei para ilustrar um pouco das habilidades que estou adquirindo, esse pequeno projeto foi feito em HTML e CSS3.</p>
+                        <a class="site-link" href="https://cristhianrodrigues.github.io/carrossel/">Visitar Projeto</a>
+                    </div>
+                </div>
+                <div class="projeto-secundario">
+                    <img class="img-projeto-secundario" src="./imgs/huddle-landing-page.png" alt="huddle-landing-page png">
+                    <div class="sobre-o-projeto">
+                        <h2 class="titulo sub-titulo titulo-outros-projetos">Huddle landing page</h2>
+                        <p>Esse é mais um projeto/desafio que eu tirei do site <a class="front-end-mentor-link" href="https://www.frontendmentor.io/">frontendmentor.io</a>, mas fiz ele de uma forma um pouco diferente, a construção dele é feita como o metodo mobile first, fiquei feliz com o resultado obtido nesse desafio, cada vez mais estou progredindo nos meus estudo em programação Front-End, este projeto foi feito em HTML e CSS..</p>
+                        <a class="site-link" href="https://cristhianrodrigues.github.io/huddle-landing-page/">Visitar Projeto</a>
+                    </div>
+                </div>
+                <div class="projeto-secundario">
+                    <img class="img-projeto-secundario" src="./imgs/cartao-componente-estatos-preview.png" alt="Carrossel png">
+                    <div class="sobre-o-projeto">
+                        <h2 class="titulo sub-titulo titulo-outros-projetos">Cartão componente status preview</h2>
+                        <p>Esse é um projeto/desafio que eu tirei do site <a class="front-end-mentor-link" href="https://www.frontendmentor.io/">frontendmentor.io</a>, Um componente simples mais bem bacana, esse desafio foi feito por mim em HTML, CSS.</p>
+                        <a class="site-link" href="https://cristhianrodrigues.github.io/cartao-componente-estatos-preview/">Visitar Projeto</a>
+                    </div>
+                </div>
+                <div class="projeto-secundario">
+                    <img class="img-projeto-secundario" src="./imgs/formulario.png" alt="Carrossel png">
+                    <div class="sobre-o-projeto">
+                        <h2 class="titulo sub-titulo titulo-outros-projetos">Formulário</h2>
+                        <p>Este é um projeto/desafio que eu tirei do site <a class="front-end-mentor-link" href="https://www.frontendmentor.io/">frontendmentor.io</a>, um formulário simples mas bem estilizado, este projeto foi feito totalmente por mim em HTML, CSS, JavaScript.</p>
+                        <a class="site-link" href="https://cristhianrodrigues.github.io/formulario/">Visitar Projeto</a>
+                    </div>
+                </div>
+                <div class="projeto-secundario">
+                    <img class="img-projeto-secundario" src="./imgs/slider-testemunhal.png" alt="Carrossel png">
+                    <div class="sobre-o-projeto">
+                        <h2 class="titulo sub-titulo titulo-outros-projetos">Slider testemunhal</h2>
+                        <p>Esse é um projeto/desafio que eu tirei do site <a class="front-end-mentor-link" href="https://www.frontendmentor.io/">frontendmentor.io</a>, um tipo de slide testemunhal que corresponde bem a qualquer tela, esse desafio foi feito por mim em HTML, CSS e JavaScript.</p>
+                        <a class="site-link" href="https://cristhianrodrigues.github.io/slider-testemunhal/">Visitar Projeto</a>
+                    </div>
+                </div>
+                <div class="projeto-secundario">
+                    <img class="img-projeto-secundario" src="./imgs/componente-grade-de-preco.png" alt="Carrossel png">
+                    <div class="sobre-o-projeto">
+                        <h2 class="titulo sub-titulo titulo-outros-projetos">Componente grade de preço</h2>
+                        <p>Este desafio/projeto foi tirado do site <a class="front-end-mentor-link" href="https://www.frontendmentor.io/">frontendmentor.io</a>, um componente de preço simples mas bem estilizado, ele foi feito um pouco dierente de como eu costumo fazer sendo contrudido com o display: gred, achei muito bom o resultado do desafio, ele foi feito inteiramente em HTML e CSS.</p>
+                        <a class="site-link" href="https://cristhianrodrigues.github.io/componente-grade-de-preco/">Visitar Projeto</a>
+                    </div>
+                </div>
+                <div class="projeto-secundario">
+                    <img class="img-projeto-secundario" src="./imgs/cartoes-componente.png" alt="Carrossel png">
+                    <div class="sobre-o-projeto">
+                        <h2 class="titulo sub-titulo titulo-outros-projetos">Cartões componente</h2>
+                        <p>Este é mais um projeto/desafio que eu tirei do site <a class="front-end-mentor-link" href="https://www.frontendmentor.io/">frontendmentor.io</a>, são três cartões um do lado do outro com responsividade, a parte de front-end foi feita totalmente por mim com HTML, CSS.</p>
+                        <a class="site-link" href="https://cristhianrodrigues.github.io/cartoes-componente/">Visitar Projeto</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="redes" id="ancora-redes">
+                <h2 class="titulo sub-titulo">Fique à vontade para entrar em contato comigo! 👋</h2>
+                <div>
+                    <a class="site-link" href="https://www.linkedin.com/in/cristhian-rodrigues-3229aa224/" target="_blank">Linkedin</a>
+                    <a class="site-link" href="https://github.com/cristhianrodrigues" target="_blank">GitHub</a>
+                    <a class="site-link" href="mailto:cristhian.lucas@protonmail.com?">Email</a>
+                    <a class="site-link" href="https://wa.me/555399301675" target="_blank">WhatsApp</a>
+                </div>
+            </div>
+            <div class="creditos">
+                <p class="agradecimentos">Obrigado por acessar o meu site portfólio.</p>
+                <p class="copyright">© Cristhian Rodrigues 2022</p>
+            </div>
+        </footer>
+    </main>
 </body>
 </html>
