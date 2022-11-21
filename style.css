@@ -1,0 +1,456 @@
+* {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-family: 'EB Garamond', serif;
+}
+
+h1, h2, h4, p, a {
+    color: #000000;
+}
+
+strong {
+    color: #0065FF;
+}
+
+h1 {
+    font-family: 'EB Garamond', serif;
+    font-weight: 700;
+    font-size: 4.375rem;
+    line-height: 4.375rem;
+}
+
+h2, h4, p, label {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+}
+
+h4 {
+    font-size: 1.25rem;
+    line-height: 1.25rem;
+}
+
+p {
+    font-size: 1.063rem;
+    line-height: 1.553rem;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.278rem;
+}
+
+hr {
+    background-color: #0065FF;
+    border: solid 0.075rem #0065FF;
+    border-radius: 50rem;
+}
+
+header {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5.438rem;
+    padding: 0rem 5.438rem;
+    background-color: #FFFFFF;
+    box-shadow: 0rem 1.563rem 4.063rem rgba(0, 0, 0, 0.15);
+    transition: 0.5s;
+}
+
+.lado-esquerdo, .barra-de-navegacao, .lado-direito, .modo-escuro {
+    display: flex;
+}
+
+.redes-atalho {
+    display: none;
+}
+
+.lado-esquerdo {
+    align-items: center;
+    justify-content: space-between;
+    width: 29.375rem;
+}
+
+.tituloLogo {
+    color: #202020;
+}
+
+.barra-de-navegacao a {
+    color: #0065FF;
+}
+
+.barra-de-navegacao a:nth-child(2) {
+    padding: 0rem 1.25rem;
+}
+
+.lado-direito {
+    display: flex;
+    align-items: center;
+}
+
+.icone-redes {
+    width: 1.25rem;
+    height: 1.25rem;
+}
+
+.redes-atalho a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 0.1rem; 
+    width: 1.25rem;
+    height: 1.25rem;
+}
+
+.redes-atalho a:nth-child(2){
+    margin: 0 1rem;
+}
+
+.email img {
+    width: 1.6rem;
+    height: 1.45rem;
+}
+
+
+
+/* modo escuro */
+
+
+
+.modoEscuroTitulo {
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.278rem;
+}
+
+.modo-escuro img {
+    width: 2.625rem;
+    height: 1.375rem;
+    margin: 0 0 0 0.5rem;
+    cursor: pointer;
+}
+
+.modo-escuro {
+    align-items: center;
+    justify-content: center;
+    padding: 0 0 0 2.5rem;
+}
+
+.titulo-modo-escuro {
+    font-size: 0.8rem;
+    font-weight: 400;
+    padding-right: 0.5rem;
+}
+
+.botao-modo-escuro {
+    display: flex;
+    align-items: center;
+    width: 2rem;
+    height: 1rem;
+    background-color: #e5e5e5;
+    border: 1px solid;
+    border-radius: 50px;
+    border-color: #3C3B3A;
+    padding: 0 0.15rem;
+    cursor: pointer;
+}
+
+.interruptor-modo-escuro {
+    position: absolute;
+    width: 0.85rem;
+    height: 0.85rem;
+    background-color: #3C3B3A;
+    border-radius: 100%;
+    transition: 0.2s;
+}
+
+.modo-escuro-ativado {
+    transform: translateX(1.15rem);
+}
+
+.main-modo-escuro, .body-modo-escuro {
+   background-color: #222222 !important;
+}
+
+.header-modo-escuro {
+    background-color: #3C3B3A !important;
+}
+
+.tituloLogo-modo-escuro, .barra-de-navegacao-modo-escuro a, .titulo-modo-escuro-em-modo-escuro, .sub-titulos-em-modo-escuro, .segundo-conteudo-em-destaque-com-modo-escuro h2, .outros-projetos-em-modo-escuro h2, .outros-projetos-em-modo-escuro p {
+    color: #FAF4E6 !important;
+}
+
+.botao-modo-escuro-em-modo-escuro {
+    background-color: #FAF4E6 !important;
+}
+
+.texto-em-modo-escuro p, .conteudo-em-modo-escuro {
+    color: #FAF4E6 !important;
+}
+
+.texto-em-modo-escuro strong, .texto-em-modo-escuro a {
+    color: #FAF4E6;
+    text-decoration: underline;
+}
+
+.hr-em-modo-escuro {
+    background-color: #FAF4E6 !important;
+    border: solid 0.075rem #FAF4E6 !important;
+}
+
+.outros-projetos-em-modo-escuro .site-link, .site-link-modo-escuro, .segundo-conteudo-em-destaque-com-modo-escuro a, .redes-modo-escuro a {
+    background-color: #3C3B3A !important;
+    color: #FAF4E6 !important;
+    border: 1px solid #FAF4E6 !important;
+
+}
+
+.outros-projetos-em-modo-escuro a:hover, .site-link-modo-escuro:hover, .segundo-conteudo-em-destaque-com-modo-escuro a:hover, .redes-modo-escuro a:hover {
+    background-color: #FAF4E6 !important;
+    color: #3C3B3A !important;
+}
+
+.site-link-modo-escuro, .segundo-conteudo-em-destaque-com-modo-escuro a {
+    text-decoration: none !important;
+}
+
+.outros-projetos-em-modo-escuro .front-end-mentor-link {
+    color: #FAF4E6 !important;
+    text-decoration: underline;
+}
+
+.redes-modo-escuro {
+    background-color: #3C3B3A !important;
+}
+
+.redes-modo-escuro h2 {
+    color: #FAF4E6 !important;
+}
+
+.creditos-em-modo-escuro p {
+    color: #FAF4E6 !important;
+}
+
+
+main {
+    padding-top: 3rem;
+    padding-bottom: 10rem;
+    transition: 0.5s;
+}
+
+.introducao, .projetos, .redes {
+    margin: 0 14rem;
+}
+
+.fotoDoAutor {
+    border-radius: 20rem;
+    width: 6.25rem;
+    height: 6.25rem;
+}
+
+.apresentacao {
+    color: #0065FF;
+    margin: 3rem 20% 4.5rem 0;
+}
+
+hr.divisao-inicio {
+    width: 15rem;
+}
+
+.sobre-mim {
+    margin: 6rem 0 0 0;
+}
+
+.sobre-mim p, .projetos p, .outros-projetos p, .creditos p {
+    margin: 2rem 0;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.063rem;
+    line-height: 1.563rem;
+    color: #202020;
+}
+
+.projetos {
+    margin-top: 5rem;
+}
+
+.titulo {
+    color: #0065FF;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 2rem 0;
+}
+
+.divisao-fim {
+    margin: 4rem 0;
+}
+
+.front-end-mentor-link {
+    color: #0065FF;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.063rem;
+    line-height: 1.563rem;
+}
+
+.img-projeto {
+    max-width: 40rem;
+    width: 35rem;
+    height: 26rem;
+    box-shadow: 0rem 1.563rem 4.063rem rgba(0, 0, 0, 0.15);
+    border-radius: 0.3rem;
+}
+
+.projeto-destaque {
+    display: flex;
+    margin: 3.9rem 0rem;
+}
+
+.conteudo-projeto {
+    margin: 0 3rem;
+}
+
+.sub-titulo {
+    color: #202020;
+    margin: 1rem 0;
+    font-size: 1.5rem !important;
+}
+
+.conteudo-projeto p {
+    margin: 0;
+}
+
+.site-link {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 0.70rem;
+    font-weight: 600;
+    display: inline-block;
+    color: #0065FF;
+    background-color: #FFFFFF;
+    border: #0065FF solid 0.10rem;
+    border-radius: 15rem;
+    margin: 1.5rem 0;
+    padding: 0.65rem 2.5rem;
+    transition: 0.7s;
+}
+
+.site-link:hover {
+    color: #FFFFFF;
+    background-color: #0065FF;
+    border: #0065FF solid 0.10rem;
+    transition: 0.7s;
+}
+
+.projeto-landing-page {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 5rem 0;
+}
+
+.outros-projetos {
+    margin: 5rem 14rem;
+}
+
+.projeto-secundario {
+    display: flex;
+    margin: 4rem 0;
+}
+
+.img-projeto-secundario {
+    min-width: 19rem;
+    height: 12rem;
+    border-radius: 0.3rem;
+    box-shadow: 0rem 0rem 2.063rem rgb(0 0 0 / 21%)
+}
+
+.sobre-o-projeto {
+    margin: 0 2rem ;
+}
+
+.titulo-outros-projetos {
+    margin: 0;
+}
+
+.sobre-o-projeto p {
+    margin: 1rem 0rem;
+}
+
+.sobre-o-projeto .site-link {
+    margin: 0;
+    padding: 0.5rem 1rem;
+}
+
+.redes {
+    padding: 2rem;
+    background-color: #E5E5E5;
+    box-shadow: 0 1.563rem 4.063rem rgba(0, 0, 0, 0.15);
+    border-radius: 0.625rem;
+}
+
+.creditos {
+    margin: 4rem 14rem;
+}
+
+.creditos p {
+    margin: 1rem;
+}
+
+.agradecimentos {
+    font-family: 'Be Vietnam';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 25px;
+}
+
+.copyright {
+    font-family: 'Be Vietnam';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+@media (min-width: 1600px) {
+    .introducao, .projetos, .redes, .outros-projetos, .creditos{
+        margin: 0 20%;
+    }
+}
+
+
+
+@media (max-width: 1366px) {
+    html {
+        font-size: 94.86% !important;
+    }
+}
+
+@media (max-width: 1280px) {
+    html {
+        font-size: 88.89% !important;
+    }
+}
+
+@media (max-width: 1024px) {
+    html {
+        font-size: 71.11% !important;
+    }
+}
+
+@media (max-width: 800px) {
+    html {
+        font-size: 55.56% !important;
+    }
+}
+
