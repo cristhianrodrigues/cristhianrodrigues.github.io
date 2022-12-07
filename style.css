@@ -369,6 +369,7 @@ hr.divisao-inicio {
 
 .img-projeto-secundario {
     min-width: 19rem;
+    max-width: 19rem;
     height: 12rem;
     border-radius: 0.3rem;
     box-shadow: 0rem 0rem 2.063rem rgb(0 0 0 / 21%)
