@@ -165,8 +165,8 @@ header {
 
 .interruptor-modo-escuro {
     position: absolute;
-    width: 0.85rem;
-    height: 0.85rem;
+    width: 0.8rem;
+    height: 0.8rem;
     background-color: #3C3B3A;
     border-radius: 100%;
     transition: 0.2s;
